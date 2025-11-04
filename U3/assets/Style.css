@@ -1,0 +1,38 @@
+body {
+    background-color: wheat;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.navlink:link {
+    color: rebeccapurple;
+    font-weight: bold;
+    font-size: 1.125rem;
+    white-space: nowrap;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+nav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    box-shadow: 1px 1px 10px #6c6b6b;
+    background-color: lightcyan;
+    flex: 1rem;
+
+}
+a:visited {
+    color: rgb(46, 8, 152);
+}
+
+.navlink:hover {
+    background-color: lightyellow;
+}
+
+
+html {
+scroll-behavior: smooth;
+}
